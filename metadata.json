@@ -1,0 +1,6 @@
+{
+  "name": "HOSHIZORA（ほしぞら）",
+  "description": "小学校1〜3年生向けの星座学習Webサービス。12星座図鑑・星つなぎゲーム・クイズ・神話・観察日記で楽しく星の知識が身につきます。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
