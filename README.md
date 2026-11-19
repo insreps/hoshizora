@@ -18,25 +18,6 @@
 - React 19 / TypeScript / Vite / Tailwind CSS v4
 - データ永続化：`StorageAdapter` 抽象化によるブラウザ内保存（将来的なクラウド同期対応設計）
 
-## ローカル開発・テスト手順
-
-```bash
-# 依存関係のインストール
-npm install
-
-# 開発サーバー起動 (http://localhost:3000)
-npm run dev
-
-# 型チェック
-npm run lint
-
-# ユニットテスト
-npx --yes tsx --test src/lib/learningEngine.test.ts
-
-# 本番ビルド
-npm run build
-```
-
 ## プライバシーと安全設計
 
 - 氏名・メールアドレス・GPS位置情報・外部広告トラッキングは取得しません。
